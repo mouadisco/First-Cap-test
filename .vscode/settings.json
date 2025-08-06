@@ -1,0 +1,17 @@
+{
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "sqlite_connect",
+            "database": "${workspaceFolder:CAP STARTER}/test/db.sqlite"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "sqlite_connect",
+            "database": "${workspaceFolder:CAP STARTER}/test/db/my-db.sqlite"
+        }
+    ]
+}
